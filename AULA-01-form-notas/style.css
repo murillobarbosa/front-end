@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    height: 50vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 12px;
+    box-shadow: 0px 0px 12px rgb(255, 22, 22);
+    border-radius: 25px;
+    transform: translate(10px, 105px);
+}
+
+button {
+    background-color: whitesmoke;
+    height: 2.0em;
+    transform: translate(0px, 40px);
+}
+
+.sombraVermelha {
+    box-shadow: 0px 0px 12px rgb(8, 238, 58);
+}
+
+.sombraCinza {
+    box-shadow: 0px 0px 12px rgb(245, 10, 10);
+}
+
+.letra {
+    transform: translate(-48px, 30px);
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nota1 {
+    transform: translate(0px, 60px);
+}
+
+.nota2 {
+    transform: translate(0px, 50px);
+}
+
+h1 {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
